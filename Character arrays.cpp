@@ -36,8 +36,6 @@ void printS(int f[]) {
 
 int main() {
     setlocale(LC_ALL, "RUSSIAN");
-    cout << "Лабораторная работа 2.3 вариант 3+ Монинчук Т. 6103-1203030" << endl;
-    cout << "********************************" << endl;
 
     if (!isPassword())
         return 0;
