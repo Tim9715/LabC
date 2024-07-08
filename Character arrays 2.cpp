@@ -78,8 +78,6 @@ void processWords(const std::vector<std::string>& words, const std::string& subw
 
 int main() {
     setlocale(LC_ALL, "RUSSIAN");
-    cout << "Лабораторная работа 2.3 вариант 12+ Монинчук Т. 6103-1203030" << endl;
-    cout << "********************************" << endl;
 
     if (isPassword()) {
         std::string input;
